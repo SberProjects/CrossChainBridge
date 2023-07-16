@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "MontserratMedium";
+  src: url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: url("./assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratItalic";
+  src: url("./assets/fonts/Montserrat-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratNormal";
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+p,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../public/images/background.svg');
+  background-position: center;
+  background-size: contain;
+}
+
+.logInPage_container {
+  width: 200px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.logInPage_container button {
+  all: unset;
+  width: 100%;
+  height: 52px;
+  border-radius: 10px;
+  background: #63A162;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: "MontserratSemiBold";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.custom_select__control {
+  width: 100%;
+  height: 60px !important;
+  margin: 0;
+  padding: 0 !important;
+  padding-left: 18px !important;
+  border-radius: 6px !important;
+  border: 1px solid #CBCBCB !important;
+  background: #FFF !important;
+  text-align: left !important;
+}
+
+.custom_select__placeholder {
+  color: #757575 !important;
+  font-size: 16px !important;
+  font-family: "MontserratMedium" !important;
+  font-weight: 500 !important;
+}
+
+.custom_select__control:hover {
+  border: 1px solid rgb(99, 161, 98) !important;
+  box-shadow: none;
+}
+
+.custom_select__indicator-separator {
+  display: none;
+}
+
+.custom_select__indicators {
+  cursor: pointer;
+  color: var(--text_color);
+}
+
+.custom_select__value-container {
+  height: 100%;
+  cursor: text;
+}
+
+.custom_select__menu {
+  background-color: var(--select_background) !important;
+  margin-top: 0px !important;
+  border-top: 0 !important;
+}
+
+.custom_select__option {
+  cursor: pointer !important;
+  color: #757575 !important;
+  font-size: 16px !important;
+  font-family: "MontserratMedium" !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+}
+
+.custom_select__value-container {
+  padding: 0 !important;
+}
+
+.custom_select__input-container input {
+  color: #232323 !important;
+  font-size: 16px !important;
+  font-family: "MontserratMedium" !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+}
+
+.css-qbdosj-Input {
+  margin: 0 !important;
+}
+
+.custom_select__single-value {
+  color: #232323 !important;
+  font-size: 16px !important;
+  font-family: "MontserratMedium" !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  margin: 0 !important;
+  margin-top: 7px !important;
+}
+
+input {
+  all: unset;
+  height: 60px;
+  border-radius: 6px;
+  border: 1px solid #CBCBCB;
+  background: #FFF;
+  padding: 0 20px;
+  padding-left: 18px;
+  text-align: left;
+  color: #232323;
+  font-size: 16px;
+  font-family: "MontserratMedium";
+  font-weight: 500;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid rgba(99, 161, 98, 1);
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 16px;
+  font-family: "MontserratMedium";
+  font-weight: 500;
+}
+
+button {
+  all: unset;
+  width: 601px;
+  height: 52px;
+  border-radius: 10px;
+  background: #63A162;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: "MontserratSemiBold";
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+button:disabled {
+  cursor: none;
+  background: #3a603a;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.inputs_lable {
+  color: #757575;
+  font-size: 13px;
+  font-family: "MontserratMedium";
+  font-weight: 500;
+  text-align: left;
+  position: absolute;
+  left: 62px;
+  display: none;
+}
+
+.inputs_lable_display {
+  display: block;
+}

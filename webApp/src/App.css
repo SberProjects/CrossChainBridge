@@ -1,0 +1,6 @@
+.footer {
+  display: flex;
+  position: absolute;
+  top: 0;
+  max-height: 70px;
+}
